@@ -1,0 +1,461 @@
+[20:53:00] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.10
+[20:53:00] [main/INFO]: Loading 96 mods:
+	- amplified_nether 1.2.5
+	- cloth-config 13.0.138
+	   \-- cloth-basic-math 0.6.1
+	- enchanted-vertical-slabs 1.9.3
+	- fabric-api 0.97.1+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.87+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.5+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.63+6605d1a84f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.75+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.0+bcdd12964f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.8+2e5ac5484f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.21+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.20+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.6+d331d3144f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.56+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabric-language-kotlin 1.13.0+kotlin.2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.26.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- fixedminecraft 1.0.4-1.20.4
+	- fixedprogression 0.2-1.20.4
+	- forgeconfigapiport 20.4.3
+	   |-- com_electronwill_night-config_core 3.6.6
+	   \-- com_electronwill_night-config_toml 3.6.6
+	- geophilic 3.2
+	- invmove 0.8.6
+	- itemframent 2.1.1
+	- java 17
+	- minecraft 1.20.4
+	- modmenu 9.2.0
+	   \-- placeholder-api 2.4.0-pre.1+1.20.4
+	- mosslayers 2.1.0
+	- mr_clifftree 1.7.2
+	- mr_endercon 1.0.2
+	- puzzleslib 20.4.52
+	- rapscallionsandrockhoppers 1.2.0
+	   \-- smartbrainlib 1.14.1
+	- simple-hollow-logs 1.0.2+1.20.3
+	- unwrecked_ships_plus 2.0.5
+	- villagesandpillages 1.0.2
+	- visualworkbench 20.4.2
+	- yungsapi 1.20.4-Fabric-4.4.3
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+[20:53:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Douwe/Documents/Multimc/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:53:00] [main/INFO]: Compatibility level set to JAVA_17
+[20:53:00] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:53:00] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:53:00] [main/WARN]: Reference map 'visualworkbench.common.refmap.json' for visualworkbench.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:53:00] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:53:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:53:04] [Datafixer Bootstrap/INFO]: 198 Datafixer optimizations took 122 milliseconds
+[20:53:06] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:53:06] [Render thread/INFO]: Setting user: Douwsky
+[20:53:06] [Render thread/INFO]: [evs] Enchanted Vertical Slabs initialized!
+[20:53:06] [Render thread/INFO]: Initializing Fixed Minecraft
+[20:53:06] [Render thread/INFO]: Hello Fabric world!
+[20:53:06] [Render thread/INFO]: Registering Mod Items for fixedprogression
+[20:53:06] [Render thread/INFO]: Registering mod blocks for mosslayers
+[20:53:06] [Render thread/INFO]: Constructing common components for puzzleslib:main
+[20:53:06] [Render thread/ERROR]: No data fixer registered for rapscallionsandrockhoppers:penguin
+[20:53:06] [Render thread/INFO]: Registered Simple Hollow Logs blocks!
+[20:53:06] [Render thread/INFO]: Simple Hollow Logs initialized. That's all you need to know. This is a hollow logger.
+[20:53:06] [Render thread/INFO]: Constructing common components for visualworkbench:main
+[20:53:06] [Render thread/WARN]: Configuration file C:\Users\Douwe\Documents\Multimc\instances\cinnamon\.minecraft\config\visualworkbench-client.toml is not correct. Correcting
+[20:53:06] [Render thread/WARN]: Incorrect key rotate_ingredients was corrected from null to its default, CLOSEST_PLAYER. 
+[20:53:06] [Render thread/WARN]: Incorrect key flat_rendering was corrected from null to its default, false. 
+[20:53:06] [Render thread/WARN]: Incorrect key render_result was corrected from null to its default, true. 
+[20:53:06] [Render thread/INFO]: Loading client config for visualworkbench
+[20:53:06] [Thread-4/INFO]: Reloading client config for visualworkbench
+[20:53:06] [Thread-4/INFO]: Reloading client config for visualworkbench
+[20:53:07] [Render thread/INFO]: Reflections took 36 ms to scan 1 urls, producing 1 keys and 3 values
+[20:53:07] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[20:53:07] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[20:53:07] [Render thread/INFO]: Checking mod updates...
+[20:53:07] [Render thread/INFO]: Constructing client components for puzzleslib:main
+[20:53:07] [Render thread/INFO]: Constructing client components for visualworkbench:main
+[20:53:07] [Worker-Main-1/INFO]: Update available for 'fabric-language-kotlin@1.13.0+kotlin.2.1.0', (-> 1.13.1+kotlin.2.1.10)
+[20:53:07] [Worker-Main-1/INFO]: Update available for 'fabric-api@0.97.1+1.20.4', (-> 0.97.2+1.20.4)
+[20:53:07] [Render thread/INFO]: Backend library: LWJGL version 3.3.2-snapshot
+[20:53:08] [Render thread/WARN]: @Inject(@At("CONSTANT")) Shift.BY=2 on fixedminecraft.client.mixins.json:InGameHudMixin from mod fixedminecraft::handler$bhp000$fixedminecraft$renderFoodPre exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[20:53:08] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, cloth-config, enchanted-vertical-slabs, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fixedminecraft, fixedprogression, forgeconfigapiport, invmove, modmenu, mosslayers, rapscallionsandrockhoppers, simple-hollow-logs, visualworkbench, fixedminecraft:greentweaks, visualworkbench:default_block_models
+[20:53:08] [Render thread/INFO]: Running data generation for dynamic pack resources provided by 'visualworkbench'
+[20:53:08] [Render thread/INFO]: Data generation for dynamic pack resources provided by 'visualworkbench' took 28ms
+[20:53:08] [Worker-Main-13/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[20:53:10] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[20:53:10] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:53:10] [Render thread/WARN]: Missing sound for event: minecraft:entity.generic.wind_burst
+[20:53:10] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek USB2.0 Audio)
+[20:53:10] [Render thread/INFO]: Sound engine started
+[20:53:10] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:53:10] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:53:10] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:53:10] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20:53:29] [Render thread/ERROR]: Invalid mod icon for icon source mr_endercon: endercon_pack.png
+java.nio.file.NoSuchFileException: /endercon_pack.png
+	at jdk.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:871) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipPath.newInputStream(ZipPath.java:749) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:278) ~[jdk.zipfs:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at com.terraformersmc.modmenu.util.mod.fabric.FabricIconHandler.createIcon(FabricIconHandler.java:34) ~[modmenu-9.2.0.jar:?]
+	at com.terraformersmc.modmenu.util.mod.fabric.FabricMod.getIcon(FabricMod.java:165) ~[modmenu-9.2.0.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.getIconTexture(ModListEntry.java:131) ~[modmenu-9.2.0.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.method_25343(ModListEntry.java:60) ~[modmenu-9.2.0.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.ModListWidget.method_25311(ModListWidget.java:239) ~[modmenu-9.2.0.jar:?]
+	at net.minecraft.class_350.method_48579(class_350.java:184) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25394(class_339.java:66) ~[client-intermediary.jar:?]
+	at com.terraformersmc.modmenu.gui.ModsScreen.method_25394(ModsScreen.java:303) ~[modmenu-9.2.0.jar:?]
+	at net.minecraft.class_437.method_47413(class_437.java:110) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.mixinextras$bridge$method_47413$186(class_757.java) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.wrapOperation$zme000$fabric-screen-api-v1$onRenderScreen(class_757.java:2111) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:931) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1327) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:888) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-1.20.4-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:243) ~[NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:278) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) ~[NewLaunch.jar:?]
+[20:53:29] [Render thread/WARN]: Warning! Mod mr_endercon has a broken icon, loading default icon
+[20:53:34] [Render thread/WARN]: Found loot table element validation problem in {loot_tables:minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[20:53:34] [Render thread/ERROR]: Parsing error loading recipe fixedprogression:golden_boots_smithing
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"fixedprogression:copper_boots"}]; Item must not be minecraft:air; Not a json array: {"item":"fixedprogression:copper_boots"}; Input does not contain a key [fabric:type]: MapLike[{"item":"fixedprogression:copper_boots"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_31130(class_525.java:331) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.method_43462(class_528.java:184) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.<init>(class_528.java:107) ~[client-intermediary.jar:?]
+	at net.minecraft.class_526.method_25426(class_526.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25423(class_437.java:298) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java:1187) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_19861(class_442.java:159) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4185.method_25306(class_4185.java:95) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4264.method_25348(class_4264.java:48) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25402(class_339.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_25402(class_442.java:307) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:414) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:180) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:180) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1352) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:888) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-1.20.4-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:243) ~[NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:278) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) ~[NewLaunch.jar:?]
+[20:53:34] [Render thread/ERROR]: Parsing error loading recipe fixedprogression:golden_helmet_smithing
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"fixedprogression:copper_helmet"}]; Item must not be minecraft:air; Not a json array: {"item":"fixedprogression:copper_helmet"}; Input does not contain a key [fabric:type]: MapLike[{"item":"fixedprogression:copper_helmet"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_31130(class_525.java:331) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.method_43462(class_528.java:184) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.<init>(class_528.java:107) ~[client-intermediary.jar:?]
+	at net.minecraft.class_526.method_25426(class_526.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25423(class_437.java:298) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java:1187) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_19861(class_442.java:159) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4185.method_25306(class_4185.java:95) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4264.method_25348(class_4264.java:48) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25402(class_339.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_25402(class_442.java:307) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:414) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:180) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:180) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1352) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:888) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-1.20.4-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:243) ~[NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:278) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) ~[NewLaunch.jar:?]
+[20:53:34] [Render thread/ERROR]: Parsing error loading recipe fixedprogression:golden_leggings_smithing
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"fixedprogression:copper_leggings"}]; Item must not be minecraft:air; Not a json array: {"item":"fixedprogression:copper_leggings"}; Input does not contain a key [fabric:type]: MapLike[{"item":"fixedprogression:copper_leggings"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_31130(class_525.java:331) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.method_43462(class_528.java:184) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.<init>(class_528.java:107) ~[client-intermediary.jar:?]
+	at net.minecraft.class_526.method_25426(class_526.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25423(class_437.java:298) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java:1187) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_19861(class_442.java:159) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4185.method_25306(class_4185.java:95) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4264.method_25348(class_4264.java:48) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25402(class_339.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_25402(class_442.java:307) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:414) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:180) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:180) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1352) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:888) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-1.20.4-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:243) ~[NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:278) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) ~[NewLaunch.jar:?]
+[20:53:34] [Render thread/ERROR]: Parsing error loading recipe fixedprogression:golden_chestplate_smithing
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"fixedprogression:copper_chestplate"}]; Item must not be minecraft:air; Not a json array: {"item":"fixedprogression:copper_chestplate"}; Input does not contain a key [fabric:type]: MapLike[{"item":"fixedprogression:copper_chestplate"}]
+	at net.minecraft.class_156.method_47526(class_156.java:1005) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_31130(class_525.java:331) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.method_43462(class_528.java:184) ~[client-intermediary.jar:?]
+	at net.minecraft.class_528.<init>(class_528.java:107) ~[client-intermediary.jar:?]
+	at net.minecraft.class_526.method_25426(class_526.java:51) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25423(class_437.java:298) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java:1187) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_19861(class_442.java:159) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4185.method_25306(class_4185.java:95) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4264.method_25348(class_4264.java:48) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25402(class_339.java:145) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:38) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_25402(class_442.java:307) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:414) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:99) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:180) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:180) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1352) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:888) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-1.20.4-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:243) ~[NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:278) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) ~[NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) ~[NewLaunch.jar:?]
+[20:53:34] [Render thread/INFO]: Loaded 7 recipes
+[20:53:34] [Render thread/INFO]: Loaded 1324 advancements
+[20:53:39] [Render thread/INFO]: Applied 18 biome modifications to 18 of 92 new biomes in 4.842 ms
+[20:53:39] [Server thread/WARN]: Configuration file C:\Users\Douwe\Documents\Multimc\instances\cinnamon\.minecraft\config\visualworkbench-server.toml is not correct. Correcting
+[20:53:39] [Server thread/WARN]: Incorrect key disable_vanilla_workbench was corrected from null to its default, true. 
+[20:53:39] [Server thread/INFO]: Loading server config for visualworkbench
+[20:53:39] [Server thread/INFO]: Starting integrated minecraft server version 1.20.4
+[20:53:39] [Server thread/INFO]: Generating keypair
+[20:53:39] [Server thread/INFO]: This line is printed by an example mod mixin!
+[20:53:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:53:41] [Render thread/INFO]: Preparing spawn area: 0%
+[20:53:41] [Render thread/INFO]: Preparing spawn area: 0%
+[20:53:41] [Render thread/INFO]: Preparing spawn area: 0%
+[20:53:42] [Render thread/INFO]: Preparing spawn area: 1%
+[20:53:42] [Render thread/INFO]: Preparing spawn area: 1%
+[20:53:43] [Render thread/INFO]: Preparing spawn area: 4%
+[20:53:43] [Render thread/INFO]: Preparing spawn area: 6%
+[20:53:44] [Render thread/INFO]: Preparing spawn area: 9%
+[20:53:44] [Render thread/INFO]: Preparing spawn area: 11%
+[20:53:45] [Render thread/INFO]: Preparing spawn area: 15%
+[20:53:45] [Render thread/INFO]: Preparing spawn area: 17%
+[20:53:46] [Render thread/INFO]: Preparing spawn area: 22%
+[20:53:46] [Render thread/INFO]: Preparing spawn area: 25%
+[20:53:47] [Render thread/INFO]: Preparing spawn area: 30%
+[20:53:47] [Render thread/INFO]: Preparing spawn area: 33%
+[20:53:48] [Render thread/INFO]: Preparing spawn area: 38%
+[20:53:48] [Render thread/INFO]: Preparing spawn area: 43%
+[20:53:49] [Render thread/INFO]: Preparing spawn area: 47%
+[20:53:49] [Render thread/INFO]: Preparing spawn area: 54%
+[20:53:50] [Render thread/INFO]: Preparing spawn area: 57%
+[20:53:50] [Render thread/INFO]: Preparing spawn area: 63%
+[20:53:51] [Render thread/INFO]: Preparing spawn area: 70%
+[20:53:51] [Render thread/INFO]: Preparing spawn area: 73%
+[20:53:52] [Render thread/INFO]: Preparing spawn area: 79%
+[20:53:52] [Render thread/INFO]: Preparing spawn area: 83%
+[20:53:53] [Render thread/INFO]: Preparing spawn area: 88%
+[20:53:53] [Render thread/INFO]: Preparing spawn area: 95%
+[20:53:54] [Render thread/INFO]: Time elapsed: 13331 ms
+[20:53:54] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:53:54] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[20:53:54] [Server thread/INFO]: Douwsky[local:E:28c1e8a6] logged in with entity id 263 at (9.5, 64.0, 8.5)
+[20:53:54] [Server thread/INFO]: Douwsky joined the game
+[20:53:55] [Render thread/INFO]: Loaded 2 advancements
+[20:53:55] [Server thread/INFO]: Saving and pausing game...
+[20:53:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:53:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:53:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:54:03] [Server thread/INFO]: Saving and pausing game...
+[20:54:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:54:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:54:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:54:23] [Server thread/INFO]: Changing view distance to 18, from 12
+[20:54:23] [Server thread/INFO]: Changing simulation distance to 20, from 12
+[20:55:09] [Render thread/INFO]: Stopping!
+[20:55:09] [Server thread/INFO]: Douwsky lost connection: Disconnected
+[20:55:09] [Server thread/INFO]: Douwsky left the game
+[20:55:09] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:55:09] [Server thread/INFO]: Stopping server
+[20:55:09] [Server thread/INFO]: Saving players
+[20:55:09] [Server thread/INFO]: Saving worlds
+[20:55:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:55:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:55:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:55:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:55:10] [Server thread/INFO]: Unloading server config for visualworkbench
+[20:55:10] [Render thread/INFO]: Unloading server config for visualworkbench
