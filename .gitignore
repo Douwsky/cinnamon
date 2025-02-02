@@ -8,3 +8,5 @@
 /.minecraft/saves
 /.minecraft/saves/New World
 .minecraft/hotbar.nbt
+/.minecraft/.fabric
+.minecraft/command_history.txt
