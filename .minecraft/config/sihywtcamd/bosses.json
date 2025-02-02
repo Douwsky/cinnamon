@@ -1,0 +1,13 @@
+{
+  "enderDragon": {
+    "crystalDestructionSpawnsPhantom": true,
+    "controlEndermanWhenLanding": false,
+    "crystalsToSummon": 4
+  },
+  "wither": {
+    "increasedHealth": false,
+    "stormyWeather": true,
+    "explosion": false,
+    "skeletonsSpawn": false
+  }
+}
