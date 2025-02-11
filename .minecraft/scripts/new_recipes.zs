@@ -6,36 +6,18 @@ craftingTable.addShaped("bundle_craft", <item:metalbundles:leather_bundle>, [
   ]
 );                                                         
 
-craftingTable.removeByName("sophisticatedbackpacks:backpack");
-craftingTable.addShaped("backpack_craft", <item:sophisticatedbackpacks:backpack>, [
-    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
-    [<item:minecraft:leather>, <item:minecraft:nautilus_shell>, <item:minecraft:leather>],
-    [<item:minecraft:leather>, <item:metalbundles:leather_bundle>, <item:minecraft:leather>]
-  ]
-); 
+smithing.addTransformRecipe("copper_bundle_smithing", <item:metalbundles:copper_bundle>,
+    <item:fixedprogression:base_upgrade_template>, <item:metalbundles:leather_bundle>, <item:minecraft:nautilus_shell>);
+smithing.addTransformRecipe("iron_bundle_smithing", <item:metalbundles:iron_bundle>,
+    <item:fixedprogression:iron_upgrade_template>, <item:metalbundles:copper_bundle>, <item:rapscallionsandrockhoppers:fish_bones>);
 
-craftingTable.removeByName("sophisticatedbackpacks:copper_backpack");
-smithing.addTransformRecipe("copper_backpack_smithing", <item:sophisticatedbackpacks:copper_backpack>,
-    <item:fixedprogression:base_upgrade_template>, <item:metalbundles:leather_bundle>, <item:minecraft:copper_ingot>);
+craftingTable.removeByName("minecraft:shulker_box");
+smithing.addTransformRecipe("shulker_box_smithing", <item:minecraft:shulker_box>,
+    <item:minecraft:shulker_shell>, <item:metalbundles:leather_bundle>, <item:minecraft:popped_chorus_fruit>);
 
-craftingTable.removeByName("sophisticatedbackpacks:iron_backpack");
-smithing.addTransformRecipe("iron_backpack_smithing", <item:sophisticatedbackpacks:iron_backpack>,
-    <item:fixedprogression:iron_upgrade_template>, <item:sophisticatedbackpacks:copper_backpack>, <item:minecraft:iron_ingot>);
-
-craftingTable.removeByName("sophisticatedbackpacks:gold_backpack");
-smithing.addTransformRecipe("gold_backpack_smithing", <item:sophisticatedbackpacks:gold_backpack>,
-    <item:fixedprogression:gold_upgrade_template>, <item:sophisticatedbackpacks:iron_backpack>, <item:minecraft:gold_ingot>);
-
-craftingTable.removeByName("sophisticatedbackpacks:diamond_backpack");
-smithing.addTransformRecipe("diamond_backpack_smithing", <item:sophisticatedbackpacks:diamond_backpack>,
-    <item:fixedprogression:diamond_upgrade_template>, <item:sophisticatedbackpacks:gold_backpack>, <item:minecraft:diamond>);
-
-smithing.removeByName("sophisticatedbackpacks:netherite_backpack");
-smithing.addTransformRecipe("netherite_backpack_smithing", <item:sophisticatedbackpacks:netherite_backpack>,
-    <item:fixedprogression:netherite_upgrade_template>, <item:sophisticatedbackpacks:diamond_backpack>, <item:minecraft:netherite_ingot>);
-
-
-
+craftingTable.removeByName("utility_belt:utility_belt");
+smithing.addTransformRecipe("utility_belt_smithing", <item:utility_belt:utility_belt>,
+    <item:fixedprogression:netherite_upgrade_template>, <item:metalbundles:leather_bundle>, <item:minecraft:ghast_tear>);
 
 
 

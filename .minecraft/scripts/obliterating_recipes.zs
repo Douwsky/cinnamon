@@ -30,19 +30,23 @@ craftingTable.removeByName("minecraft:furnace");
 craftingTable.removeByName("minecraft:smoker");
 craftingTable.removeByName("minecraft:netherite_ingot");
 craftingTable.removeByName("minecraft:end_crystal");
-craftingTable.removeByName("minecraft:netherite_upgrade_smithing_template");
+    //craftingTable.removeByName("minecraft:netherite_upgrade_smithing_template");
 craftingTable.removeByName("minecraft:chain");
+craftingTable.removeByName("minecraft:cake");
+craftingTable.removeByName("minecraft:cookie");
+craftingTable.removeByName("minecraft:bread");
+craftingTable.removeByName("minecraft:pumpkin_pie");
 
 
 //MODDED RECIPES
 craftingTable.removeByName("fixedminecraft:dragon_firework_rocket");
-craftingTable.removeByName("fixedminecraft:echo_fruit");
-craftingTable.removeByName("fixedminecraft:echo_totem");
-smithing.removeByName("fixedminecraft:netherite_anvil_smithing");
+    //craftingTable.removeByName("fixedminecraft:echo_fruit");
+    //craftingTable.removeByName("fixedminecraft:echo_totem");
+    //smithing.removeByName("fixedminecraft:netherite_anvil_smithing");
 craftingTable.removeByName("fixedminecraft:fixed_totem");
 
 craftingTable.remove(<item:metalbundles:copper_bundle>);
 craftingTable.remove(<item:metalbundles:iron_bundle>);
-craftingTable.remove(<item:metalbundles:golden_bundle>);
-craftingTable.remove(<item:metalbundles:diamond_bundle>);
-craftingTable.remove(<item:metalbundles:netherite_bundle>);
+    //craftingTable.remove(<item:metalbundles:golden_bundle>);
+    //craftingTable.remove(<item:metalbundles:diamond_bundle>);
+    //craftingTable.remove(<item:metalbundles:netherite_bundle>);

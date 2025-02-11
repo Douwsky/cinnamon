@@ -4,21 +4,21 @@
 import crafttweaker.api.recipe.SmithingRecipeManager;
 
 
-var tools = {
-"shovel" : "shovel",
-"pickaxe" : "pickaxe",
-"axe" : "axe",
-"hoe" : "hoe",
-"sword" : "sword"
-};
+//var tools = {
+//"shovel" : "shovel",
+//"pickaxe" : "pickaxe",
+//"axe" : "axe",
+//"hoe" : "hoe",
+//"sword" : "sword"
+//};
 
-for materialId, materialName in tools {
-craftingTable.remove(<item:minecraft:wooden_${materialId}>);
-craftingTable.remove(<item:minecraft:stone_${materialId}>);
-craftingTable.remove(<item:minecraft:iron_${materialId}>);
-craftingTable.remove(<item:minecraft:golden_${materialId}>);
-craftingTable.remove(<item:minecraft:diamond_${materialId}>);
-}
+//for materialId, materialName in tools {
+//craftingTable.remove(<item:minecraft:wooden_${materialId}>);
+//craftingTable.remove(<item:minecraft:stone_${materialId}>);
+//craftingTable.remove(<item:minecraft:iron_${materialId}>);
+//craftingTable.remove(<item:minecraft:golden_${materialId}>);
+//craftingTable.remove(<item:minecraft:diamond_${materialId}>);
+//}
 
 craftingTable.removeByName("minecraft:iron_helmet");
 craftingTable.removeByName("minecraft:iron_chestplate");
