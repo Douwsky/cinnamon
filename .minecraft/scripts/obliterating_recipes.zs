@@ -31,6 +31,7 @@ craftingTable.removeByName("minecraft:smoker");
 craftingTable.removeByName("minecraft:netherite_ingot");
 craftingTable.removeByName("minecraft:end_crystal");
 craftingTable.removeByName("minecraft:netherite_upgrade_smithing_template");
+craftingTable.removeByName("minecraft:chain");
 
 
 //MODDED RECIPES
