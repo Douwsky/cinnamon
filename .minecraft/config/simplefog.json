@@ -1,12 +1,12 @@
 {
   "terrainToggle": true,
-  "terrainStart": 70.0,
-  "terrainEnd": 130.0,
+  "terrainStart": 200.0,
+  "terrainEnd": 200.0,
   "waterToggle": true,
-  "waterStart": -20.0,
-  "waterEnd": 90.0,
-  "waterEndSwamp": 60.0,
+  "waterStart": 200.0,
+  "waterEnd": 200.0,
+  "waterEndSwamp": 200.0,
   "netherToggle": true,
-  "netherStart": 5.0,
+  "netherStart": -25.0,
   "netherEnd": 80.0
 }

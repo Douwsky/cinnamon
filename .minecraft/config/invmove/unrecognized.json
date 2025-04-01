@@ -1,6 +1,25 @@
 {
   "allowMovement": {
-    "net.minecraft.class_434": true
+    "net.minecraft.class_434": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "de.rubixdev.inventorio.client.ui.InventorioScreen": true,
+    "io.github.jamalam360.utility_belt.screen.UtilityBeltScreen": true,
+    "net.greenjab.fixedminecraft.map_book.MapBookScreen": true,
+    "net.minecraft.class_433": true,
+    "dev.tr7zw.itemswapper.overlay.SwitchItemOverlay": true,
+    "net.minecraft.class_7744": true,
+    "net.minecraft.class_8898": true
   },
-  "hideBackground": {}
+  "hideBackground": {
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "de.rubixdev.inventorio.client.ui.InventorioScreen": true,
+    "io.github.jamalam360.utility_belt.screen.UtilityBeltScreen": true,
+    "net.greenjab.fixedminecraft.map_book.MapBookScreen": true,
+    "net.minecraft.class_7744": true,
+    "net.minecraft.class_8898": true
+  }
 }

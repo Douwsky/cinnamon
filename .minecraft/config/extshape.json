@@ -1,0 +1,30 @@
+{
+  "addToVanillaGroups": true,
+  "shapesToAddToVanilla": [
+    "stairs",
+    "slab",
+    "quarter_piece",
+    "vertical_stairs",
+    "vertical_slab",
+    "vertical_quarter_piece",
+    "fence",
+    "fence_gate",
+    "wall",
+    "pressure_plate",
+    "button"
+  ],
+  "showSpecificGroups": false,
+  "shapesInSpecificGroups": [
+    "stairs",
+    "slab",
+    "quarter_piece",
+    "vertical_stairs",
+    "vertical_slab",
+    "vertical_quarter_piece",
+    "fence",
+    "fence_gate",
+    "wall",
+    "pressure_plate",
+    "button"
+  ]
+}

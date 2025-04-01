@@ -9,7 +9,7 @@
     "fireCollision": true
   },
   "piglin": {
-    "goldenArmor": 2,
+    "goldenArmor": 1,
     "rideHoglin": true
   }
 }

@@ -4,7 +4,7 @@
 	// - default: false
 	invertScrolling: false,
 	// - default: true
-	useSneakSwapping: true,
+	useSneakSwapping: false,
 	/* - default: SWITCH_BELT_SLOT
 	   - must be one of: SWITCH_BACK_TO_HOTBAR, SWITCH_BELT_SLOT
 	*/
@@ -12,5 +12,5 @@
 	/* - default: MIDDLE_LEFT
 	   - must be one of: TOP_LEFT, MIDDLE_LEFT, BOTTOM_LEFT, TOP_RIGHT, MIDDLE_RIGHT, BOTTOM_RIGHT
 	*/
-	hotbarPosition: "BOTTOM_RIGHT"
+	hotbarPosition: "TOP_LEFT"
 }

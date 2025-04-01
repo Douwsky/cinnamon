@@ -1,6 +1,6 @@
 {
   "translucentAllay": true,
-  "translucentGhast": true,
+  "translucentGhast": false,
   "translucentPhantom": true,
   "translucentVex": true
 }

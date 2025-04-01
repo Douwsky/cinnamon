@@ -1,0 +1,6 @@
+{
+  "activation_distance": 100,
+  "activation_mode": "VANILLA",
+  "hide_worn_armor_and_tools": "NO",
+  "play_animation_on_unsupported_blocks": "YES"
+}

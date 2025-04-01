@@ -22,7 +22,7 @@
   "warpedStick": true,
   "pinecone": false,
   "geyser": false,
-  "netherGeyser": true,
+  "netherGeyser": false,
   "seashell": false,
   "starfish": false,
   "underwaterSeashell": false,

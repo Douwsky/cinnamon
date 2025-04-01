@@ -1,7 +1,7 @@
 {
   "creeper": {
-    "explosionFatigue": true,
-    "explosionWeakness": true,
+    "explosionFatigue": false,
+    "explosionWeakness": false,
     "chainExplosions": true
   },
   "slime": {
