@@ -10,3 +10,9 @@
 .minecraft/hotbar.nbt
 /.minecraft/.fabric
 .minecraft/command_history.txt
+/.minecraft/.bobby
+/.minecraft/saves
+/.minecraft/screenshots
+/.minecraft/saves
+/.minecraft/config/worldedit
+/.minecraft/crash-reports

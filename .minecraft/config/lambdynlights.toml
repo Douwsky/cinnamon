@@ -116,6 +116,7 @@ mode = "fancy"
 				experience_bottle = true
 				snowball = true
 				firework_rocket = true
+				boat = true
 
 			[light_sources.settings.entities.rapscallionsandrockhoppers]
 				penguin = true

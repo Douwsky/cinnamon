@@ -147,6 +147,10 @@ import crafttweaker.api.tag.MCTag;
     craftingTable.removeByInput(<item:blockus:gold_brick_stairs>);
     craftingTable.removeByInput(<item:blockus:gold_brick_slab>);
     craftingTable.removeByInput(<item:blockus:gold_brick_wall>);
+    craftingTable.removeByInput(<item:blockus:netherite_bricks>);
+    craftingTable.removeByInput(<item:blockus:netherite_brick_stairs>);
+    craftingTable.removeByInput(<item:blockus:netherite_brick_slab>);
+    craftingTable.removeByInput(<item:blockus:netherite_brick_wall>);
     
     craftingTable.removeByInput(<item:blockus:sweet_berries_crate>);
     craftingTable.removeByInput(<item:blockus:glow_berries_crate>);
