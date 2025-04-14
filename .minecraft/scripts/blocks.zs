@@ -1,18 +1,13 @@
 //MOSS
-    craftingTable.removeByName("minecraft:moss_carpet");
-    craftingTable.removeByName("mosslayers:moss_layer");
-    craftingTable.addShaped("moss_layer_convert",                                                   <item:mosslayers:moss_layer>,                                 [[<item:minecraft:moss_carpet>]]);  
-    craftingTable.addShaped("moss_carpet_convert",                                                  <item:minecraft:moss_carpet>,                                 [[<item:mosslayers:moss_layer>]]); 
-    craftingTable.addShaped("moss_layer_craft",                                                     <item:mosslayers:moss_layer> * 6,                             [[<item:minecraft:moss_block>, <item:minecraft:moss_block>, <item:minecraft:moss_block>]]);
     //COBBLE
         craftingTable.removeByName("minecraft:mossy_cobblestone_from_moss_block"); 
         //MOSS
-            craftingTable.addShapeless("mossy_cobble_convert_from_moss",                            <item:minecraft:mossy_cobblestone>,                           [<item:minecraft:cobblestone>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cobble_stairs_convert_from_moss",                     <item:minecraft:mossy_cobblestone_stairs>,                    [<item:minecraft:cobblestone_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cobble_vertical_stairs_convert_from_moss",            <item:extshape:mossy_cobblestone_vertical_stairs>,            [<item:extshape:cobblestone_vertical_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cobble_slab_convert_from_moss",                       <item:minecraft:mossy_cobblestone_slab>,                      [<item:minecraft:cobblestone_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cobble_vertical_slab_convert_from_moss",              <item:extshape:mossy_cobblestone_vertical_slab>,              [<item:extshape:cobblestone_vertical_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cobble_wall_convert_from_moss",                       <item:minecraft:mossy_cobblestone_wall>,                      [<item:minecraft:cobblestone_wall>, <item:mosslayers:moss_layer>]);
+            craftingTable.addShapeless("mossy_cobble_convert_from_moss",                            <item:minecraft:mossy_cobblestone>,                           [<item:minecraft:cobblestone>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cobble_stairs_convert_from_moss",                     <item:minecraft:mossy_cobblestone_stairs>,                    [<item:minecraft:cobblestone_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cobble_vertical_stairs_convert_from_moss",            <item:extshape:mossy_cobblestone_vertical_stairs>,            [<item:extshape:cobblestone_vertical_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cobble_slab_convert_from_moss",                       <item:minecraft:mossy_cobblestone_slab>,                      [<item:minecraft:cobblestone_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cobble_vertical_slab_convert_from_moss",              <item:extshape:mossy_cobblestone_vertical_slab>,              [<item:extshape:cobblestone_vertical_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cobble_wall_convert_from_moss",                       <item:minecraft:mossy_cobblestone_wall>,                      [<item:minecraft:cobblestone_wall>, <item:minecraft:moss_carpet>]);
         //VINE
             craftingTable.addShapeless("mossy_cobble_stairs_convert_from_vine",                     <item:minecraft:mossy_cobblestone_stairs>,                    [<item:minecraft:cobblestone_stairs>, <item:minecraft:vine>]);
             craftingTable.addShapeless("mossy_cobble_vertical_stairs_convert_from_vine",            <item:extshape:mossy_cobblestone_vertical_stairs>,            [<item:extshape:cobblestone_vertical_stairs>, <item:minecraft:vine>]);
@@ -26,14 +21,14 @@
         craftingTable.removeByName("bountifulblocks:mossy/mossy_chiseled_stone_bricks_from_moss_block");
         craftingTable.removeByName("bountifulblocks:mossy/mossy_cracked_stone_bricks_from_moss_block");    
         //MOSS LAYER
-            craftingTable.addShapeless("mossy_bricks_convert_from_moss",                            <item:minecraft:mossy_stone_bricks>,                          [<item:minecraft:stone_bricks>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_stone_brick_stairs_convert_from_moss",                <item:minecraft:mossy_stone_brick_stairs>,                    [<item:minecraft:stone_brick_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_stone_brick_vertical_stairs_convert_from_moss",       <item:extshape:mossy_stone_brick_vertical_stairs>,            [<item:extshape:stone_brick_vertical_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_stone_brick_slab_convert_from_moss",                  <item:minecraft:mossy_stone_brick_slab>,                      [<item:minecraft:stone_brick_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_stone_brick_vertical_slab_convert_from_moss",         <item:extshape:mossy_stone_brick_vertical_slab>,              [<item:extshape:stone_brick_vertical_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_stone_brick_wall_convert_from_moss",                  <item:minecraft:mossy_stone_brick_wall>,                      [<item:minecraft:stone_brick_wall>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_chiseled_stone_bricks_convert_from_moss",             <item:bountifulblocks:mossy_chiseled_stone_bricks>,           [<item:minecraft:chiseled_stone_bricks>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_cracked_stone_bricks_convert_from_moss",              <item:bountifulblocks:mossy_cracked_stone_bricks>,            [<item:minecraft:cracked_stone_bricks>, <item:mosslayers:moss_layer>]);       
+            craftingTable.addShapeless("mossy_bricks_convert_from_moss",                            <item:minecraft:mossy_stone_bricks>,                          [<item:minecraft:stone_bricks>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_stone_brick_stairs_convert_from_moss",                <item:minecraft:mossy_stone_brick_stairs>,                    [<item:minecraft:stone_brick_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_stone_brick_vertical_stairs_convert_from_moss",       <item:extshape:mossy_stone_brick_vertical_stairs>,            [<item:extshape:stone_brick_vertical_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_stone_brick_slab_convert_from_moss",                  <item:minecraft:mossy_stone_brick_slab>,                      [<item:minecraft:stone_brick_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_stone_brick_vertical_slab_convert_from_moss",         <item:extshape:mossy_stone_brick_vertical_slab>,              [<item:extshape:stone_brick_vertical_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_stone_brick_wall_convert_from_moss",                  <item:minecraft:mossy_stone_brick_wall>,                      [<item:minecraft:stone_brick_wall>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_chiseled_stone_bricks_convert_from_moss",             <item:bountifulblocks:mossy_chiseled_stone_bricks>,           [<item:minecraft:chiseled_stone_bricks>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_cracked_stone_bricks_convert_from_moss",              <item:bountifulblocks:mossy_cracked_stone_bricks>,            [<item:minecraft:cracked_stone_bricks>, <item:minecraft:moss_carpet>]);       
         //VINE
             craftingTable.addShapeless("mossy_stone_brick_stairs_convert_from_vine",                <item:minecraft:mossy_stone_brick_stairs>,                    [<item:minecraft:stone_brick_stairs>, <item:minecraft:vine>]);
             craftingTable.addShapeless("mossy_stone_brick_vertical_stairs_convert_from_vine",       <item:extshape:mossy_stone_brick_vertical_stairs>,            [<item:extshape:stone_brick_vertical_stairs>, <item:minecraft:vine>]);
@@ -45,12 +40,12 @@
     //TUFF
         craftingTable.removeByName("blockus:mossy_tuff_bricks_from_moss_block");   
         //MOSS
-            craftingTable.addShapeless("mossy_tuff_bricks_convert_from_moss",                       <item:blockus:mossy_tuff_bricks>,                             [<item:minecraft:tuff_bricks>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_tuff_brick_stairs_convert_from_moss",                 <item:blockus:mossy_tuff_brick_stairs>,                       [<item:blockus:tuff_brick_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_tuff_brick_vertical_stairs_convert_from_moss",        <item:extshape_blockus:mossy_tuff_brick_vertical_stairs>,     [<item:extshape_blockus:tuff_brick_vertical_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_tuff_brick_slab_convert_from_moss",                   <item:blockus:mossy_tuff_brick_slab>,                         [<item:blockus:tuff_brick_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_tuff_brick_vertical_slab_convert_from_moss",          <item:extshape_blockus:mossy_tuff_brick_vertical_slab>,       [<item:extshape_blockus:tuff_brick_vertical_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_tuff_brick_wall_convert_from_moss",                   <item:blockus:mossy_tuff_brick_wall>,                         [<item:minecraft:tuff_brick_wall>, <item:mosslayers:moss_layer>]);
+            craftingTable.addShapeless("mossy_tuff_bricks_convert_from_moss",                       <item:blockus:mossy_tuff_bricks>,                             [<item:minecraft:tuff_bricks>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_tuff_brick_stairs_convert_from_moss",                 <item:blockus:mossy_tuff_brick_stairs>,                       [<item:blockus:tuff_brick_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_tuff_brick_vertical_stairs_convert_from_moss",        <item:extshape_blockus:mossy_tuff_brick_vertical_stairs>,     [<item:extshape_blockus:tuff_brick_vertical_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_tuff_brick_slab_convert_from_moss",                   <item:blockus:mossy_tuff_brick_slab>,                         [<item:blockus:tuff_brick_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_tuff_brick_vertical_slab_convert_from_moss",          <item:extshape_blockus:mossy_tuff_brick_vertical_slab>,       [<item:extshape_blockus:tuff_brick_vertical_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_tuff_brick_wall_convert_from_moss",                   <item:blockus:mossy_tuff_brick_wall>,                         [<item:minecraft:tuff_brick_wall>, <item:minecraft:moss_carpet>]);
         //VINE
             craftingTable.addShapeless("mossy_tuff_brick_stairs_convert_from_vine",                 <item:blockus:mossy_tuff_brick_stairs>,                       [<item:blockus:tuff_brick_stairs>, <item:minecraft:vine>]);
             craftingTable.addShapeless("mossy_tuff_brick_vertical_stairs_convert_from_vine",        <item:extshape_blockus:mossy_tuff_brick_vertical_stairs>,     [<item:extshape_blockus:tuff_brick_vertical_stairs>, <item:minecraft:vine>]);
@@ -65,12 +60,12 @@
     //DEEPSLATE
         craftingTable.removeByName("blockus:mossy_deepslate_bricks_from_moss_block");
         //MOSS
-            craftingTable.addShapeless("mossy_deepslate_bricks_convert_from_moss",                  <item:blockus:mossy_deepslate_bricks>,                        [<item:minecraft:deepslate_bricks>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_deepslate_brick_stairs_convert_from_moss",            <item:blockus:mossy_deepslate_brick_stairs>,                  [<item:minecraft:deepslate_brick_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_deepslate_brick_vertical_stairs_convert_from_moss",   <item:extshape_blockus:mossy_deepslate_brick_vertical_stairs>,[<item:extshape:deepslate_brick_vertical_stairs>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_deepslate_brick_slab_convert_from_moss",              <item:blockus:mossy_deepslate_brick_slab>,                    [<item:minecraft:deepslate_brick_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_deepslate_brick_vertical_slab_convert_from_moss",     <item:extshape_blockus:mossy_deepslate_brick_vertical_slab>,  [<item:extshape:deepslate_brick_vertical_slab>, <item:mosslayers:moss_layer>]);
-            craftingTable.addShapeless("mossy_deepslate_brick_wall_convert_from_moss",              <item:blockus:mossy_deepslate_brick_wall>,                    [<item:minecraft:deepslate_brick_wall>, <item:mosslayers:moss_layer>]);
+            craftingTable.addShapeless("mossy_deepslate_bricks_convert_from_moss",                  <item:blockus:mossy_deepslate_bricks>,                        [<item:minecraft:deepslate_bricks>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_deepslate_brick_stairs_convert_from_moss",            <item:blockus:mossy_deepslate_brick_stairs>,                  [<item:minecraft:deepslate_brick_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_deepslate_brick_vertical_stairs_convert_from_moss",   <item:extshape_blockus:mossy_deepslate_brick_vertical_stairs>,[<item:extshape:deepslate_brick_vertical_stairs>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_deepslate_brick_slab_convert_from_moss",              <item:blockus:mossy_deepslate_brick_slab>,                    [<item:minecraft:deepslate_brick_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_deepslate_brick_vertical_slab_convert_from_moss",     <item:extshape_blockus:mossy_deepslate_brick_vertical_slab>,  [<item:extshape:deepslate_brick_vertical_slab>, <item:minecraft:moss_carpet>]);
+            craftingTable.addShapeless("mossy_deepslate_brick_wall_convert_from_moss",              <item:blockus:mossy_deepslate_brick_wall>,                    [<item:minecraft:deepslate_brick_wall>, <item:minecraft:moss_carpet>]);
         //VINE  
             craftingTable.addShapeless("mossy_deepslate_bricks_convert_from_vine",                  <item:blockus:mossy_deepslate_bricks>,                        [<item:minecraft:deepslate_bricks>, <item:minecraft:vine>]);
             craftingTable.addShapeless("mossy_deepslate_brick_stairs_convert_from_vine",            <item:blockus:mossy_deepslate_brick_stairs>,                  [<item:minecraft:deepslate_brick_stairs>, <item:minecraft:vine>]);

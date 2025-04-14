@@ -117,6 +117,8 @@ mode = "fancy"
 				snowball = true
 				firework_rocket = true
 				boat = true
+				breeze = true
+				fishing_bobber = true
 
 			[light_sources.settings.entities.rapscallionsandrockhoppers]
 				penguin = true
@@ -126,4 +128,8 @@ mode = "fancy"
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
+
+			[light_sources.settings.entities.items_displayed]
+				jewelry_pillow = true
+				item_display = true
 

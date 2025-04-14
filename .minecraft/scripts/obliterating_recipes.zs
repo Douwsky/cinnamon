@@ -39,7 +39,6 @@ import crafttweaker.api.tag.MCTag;
 
 
 //MODS OTHER
-    craftingTable.removeByName("fixedminecraft:dragon_firework_rocket");
     craftingTable.removeByName("fixedminecraft:fixed_totem");
 
     craftingTable.remove(<item:metalbundles:copper_bundle>);

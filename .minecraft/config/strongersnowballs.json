@@ -1,0 +1,16 @@
+{
+  "snowballDamage": 3.0,
+  "slownessEffect": {
+    "enabled": true,
+    "durationTicks": 15,
+    "amplifier": 1,
+    "chance": 0.4
+  },
+  "damageAllMobs": false,
+  "freezeEffect": {
+    "enabled": true,
+    "freezeChance": 0.8,
+    "freezeAmount": 40,
+    "instantFreezeChance": 0.0
+  }
+}

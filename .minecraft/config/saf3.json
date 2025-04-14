@@ -1,0 +1,18 @@
+{
+  "chunkometer_hud_enabled": true,
+  "chunkometer_slime_checker_enabled": true,
+  "chunkometer_hud_x": -5,
+  "chunkometer_hud_y": -15,
+  "chunkometer_hud_relative_position_color": 16777215,
+  "chunkometer_hud_absolute_position_color": 16777215,
+  "chunkometer_relative_position_template": "[%d %d %d]",
+  "chunkometer_absolute_position_template": "[%d %d %d]",
+  "compass_hud_enabled": true,
+  "compass_hud_x": 5,
+  "compass_hud_y": -15,
+  "compass_hud_direction_color": 16777215,
+  "compass_hud_coords_color": 16777215,
+  "compass_hud_direction_template": "%s",
+  "compass_hud_coords_template": "[%d %d %d]",
+  "remove_f3_info": true
+}

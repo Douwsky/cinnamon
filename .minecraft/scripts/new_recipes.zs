@@ -13,6 +13,14 @@
   smithing.addTransformRecipe("utility_belt_smithing",                                  <item:utility_belt:utility_belt>,                               <item:fixedprogression:netherite_upgrade_template>, <item:metalbundles:leather_bundle>, <item:minecraft:ghast_tear>);
 
 
+//OTHER
+    craftingTable.removeByName("fixedprogression:firework_rocket_simple");
+    craftingTable.removeByName("fixedprogression:dragon_firework_craft");
+    craftingTable.removeByName("fixedminecraft:dragon_firework_rocket");
+    craftingTable.addShaped("dragon_firework_craft",                                    <item:fixedminecraft:dragon_firework_rocket>,                 [[<item:minecraft:dragon_breath>, <item:minecraft:fire_charge>, <item:minecraft:dragon_breath>],
+                                                                                                                                                       [<item:minecraft:fire_charge>, <item:minecraft:firework_rocket>, <item:minecraft:fire_charge>],
+                                                                                                                                                       [<item:minecraft:dragon_breath>, <item:minecraft:fire_charge>, <item:minecraft:dragon_breath>]]);
+
 //COPPER
     craftingTable.removeByName("horseexpert:monocle");
     craftingTable.addShaped("monocle_craft",                                            <item:horseexpert:monocle>,                                   [[<item:minecraft:air>, <item:fixedprogression:copper_nugget>, <item:minecraft:air>],
@@ -163,4 +171,52 @@
         craftingTable.removeByName("blockus:paper_trapdoor");
         craftingTable.addShaped("paper_trapdoor_craft",                         <item:blockus:paper_trapdoor>,            [[<item:blockus:paper_wall>, <item:blockus:paper_wall>, <item:blockus:paper_wall>],
                                                                                                                         [<item:blockus:paper_wall>, <item:blockus:paper_wall>, <item:blockus:paper_wall>]]);
-        
+
+
+//SLEEPING BAGS
+    craftingTable.removeByName("comforts:sleeping_bag_light_gray");
+    craftingTable.removeByName("comforts:sleeping_bag_gray");
+    craftingTable.removeByName("comforts:sleeping_bag_black");
+    craftingTable.removeByName("comforts:sleeping_bag_brown");
+    craftingTable.removeByName("comforts:sleeping_bag_red");
+    craftingTable.removeByName("comforts:sleeping_bag_orange");
+    craftingTable.removeByName("comforts:sleeping_bag_yellow");
+    craftingTable.removeByName("comforts:sleeping_bag_lime");
+    craftingTable.removeByName("comforts:sleeping_bag_green");
+    craftingTable.removeByName("comforts:sleeping_bag_cyan");
+    craftingTable.removeByName("comforts:sleeping_bag_light_blue");
+    craftingTable.removeByName("comforts:sleeping_bag_blue");
+    craftingTable.removeByName("comforts:sleeping_bag_purple");
+    craftingTable.removeByName("comforts:sleeping_bag_magenta");
+    craftingTable.removeByName("comforts:sleeping_bag_pink");
+
+    craftingTable.addShaped("light_gray_sleeping_bag_craft",                             <item:comforts:sleeping_bag_light_gray>,           [[<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>],
+                                                                                                                           [<item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>, <item:minecraft:light_gray_wool>]]);
+    craftingTable.addShaped("gray_sleeping_bag_craft",                             <item:comforts:sleeping_bag_gray>,           [[<item:minecraft:gray_wool>, <item:minecraft:gray_wool>, <item:minecraft:gray_wool>],
+                                                                                                                           [<item:minecraft:gray_wool>, <item:minecraft:gray_wool>, <item:minecraft:gray_wool>]]);
+    craftingTable.addShaped("black_sleeping_bag_craft",                             <item:comforts:sleeping_bag_black>,           [[<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>],
+                                                                                                                           [<item:minecraft:black_wool>, <item:minecraft:black_wool>, <item:minecraft:black_wool>]]);
+    craftingTable.addShaped("brown_sleeping_bag_craft",                             <item:comforts:sleeping_bag_brown>,           [[<item:minecraft:brown_wool>, <item:minecraft:brown_wool>, <item:minecraft:brown_wool>],
+                                                                                                                           [<item:minecraft:brown_wool>, <item:minecraft:brown_wool>, <item:minecraft:brown_wool>]]);
+    craftingTable.addShaped("red_sleeping_bag_craft",                             <item:comforts:sleeping_bag_red>,           [[<item:minecraft:red_wool>, <item:minecraft:red_wool>, <item:minecraft:red_wool>],
+                                                                                                                           [<item:minecraft:red_wool>, <item:minecraft:red_wool>, <item:minecraft:red_wool>]]);
+    craftingTable.addShaped("orange_sleeping_bag_craft",                             <item:comforts:sleeping_bag_orange>,           [[<item:minecraft:orange_wool>, <item:minecraft:orange_wool>, <item:minecraft:orange_wool>],
+                                                                                                                           [<item:minecraft:orange_wool>, <item:minecraft:orange_wool>, <item:minecraft:orange_wool>]]);
+    craftingTable.addShaped("yellow_sleeping_bag_craft",                             <item:comforts:sleeping_bag_yellow>,           [[<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>],
+                                                                                                                           [<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>]]);
+    craftingTable.addShaped("lime_sleeping_bag_craft",                             <item:comforts:sleeping_bag_lime>,           [[<item:minecraft:lime_wool>, <item:minecraft:lime_wool>, <item:minecraft:lime_wool>],
+                                                                                                                           [<item:minecraft:lime_wool>, <item:minecraft:lime_wool>, <item:minecraft:lime_wool>]]);
+    craftingTable.addShaped("green_sleeping_bag_craft",                             <item:comforts:sleeping_bag_green>,           [[<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:green_wool>],
+                                                                                                                           [<item:minecraft:green_wool>, <item:minecraft:green_wool>, <item:minecraft:green_wool>]]);
+    craftingTable.addShaped("cyan_sleeping_bag_craft",                             <item:comforts:sleeping_bag_cyan>,           [[<item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>],
+                                                                                                                           [<item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>, <item:minecraft:cyan_wool>]]);
+    craftingTable.addShaped("light_blue_sleeping_bag_craft",                             <item:comforts:sleeping_bag_light_blue>,           [[<item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>],
+                                                                                                                           [<item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>, <item:minecraft:light_blue_wool>]]);
+    craftingTable.addShaped("blue_sleeping_bag_craft",                             <item:comforts:sleeping_bag_blue>,           [[<item:minecraft:blue_wool>, <item:minecraft:blue_wool>, <item:minecraft:blue_wool>],
+                                                                                                                           [<item:minecraft:blue_wool>, <item:minecraft:blue_wool>, <item:minecraft:blue_wool>]]);
+    craftingTable.addShaped("purple_sleeping_bag_craft",                             <item:comforts:sleeping_bag_purple>,           [[<item:minecraft:purple_wool>, <item:minecraft:purple_wool>, <item:minecraft:purple_wool>],
+                                                                                                                           [<item:minecraft:purple_wool>, <item:minecraft:purple_wool>, <item:minecraft:purple_wool>]]);
+    craftingTable.addShaped("magenta_sleeping_bag_craft",                             <item:comforts:sleeping_bag_magenta>,           [[<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>],
+                                                                                                                           [<item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>, <item:minecraft:magenta_wool>]]);
+    craftingTable.addShaped("pink_sleeping_bag_craft",                             <item:comforts:sleeping_bag_pink>,           [[<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>],
+                                                                                                                           [<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>]]);

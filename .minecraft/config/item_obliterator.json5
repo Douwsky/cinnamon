@@ -59,6 +59,11 @@
     //MISC
         "pet-armor:netherite_wolf_armor",
         "pet-armor:chainmail_wolf_armor",
+        "!items_displayed:.*jewelry_pillow",
+        "interactic:item_filter",
+        "comforts:rope_and_nail",
+        "!comforts:hammock.*",
+        "comforts:sleeping_bag_white",
 
     //BOUNTIFULBLOCKS
         //Replace Blockus Smooth Stone Stairs with Bountifulblocks
